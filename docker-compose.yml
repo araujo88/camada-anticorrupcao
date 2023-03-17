@@ -1,0 +1,11 @@
+version: '1.0'
+services:
+  backend:
+    container_name: camada-anticorrupcao
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888
+    volumes:
+      - .:/app

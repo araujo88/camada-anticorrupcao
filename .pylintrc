@@ -1,0 +1,5 @@
+[MASTER]
+extension-pkg-allow-list=pydantic
+
+[MESSAGES CONTROL]
+disable=missing-function-docstring,missing-module-docstring,too-few-public-methods,protected-access,missing-class-docstring,no-name-in-module
